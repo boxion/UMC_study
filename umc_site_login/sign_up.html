@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>회원가입 페이지</title>
+    <link rel ="stylesheet" href="sign_up.css"></link>
+</head>
+<body>
+    <div class="container">
+    <h2>회원가입</h2>
+    <div class="line"></div>
+    <form action="회원가입 처리 페이지 URL" method="POST">
+        <label for="username"><p>이름:</p></label>
+        <input type="text" id="username" name="username"><br>
+        <div id="usernameError" class="error"></div>
+
+        <label for="nickname"><p>닉네임:</p></label>
+        <input type="text" id="nickname" name="nickname"><br>
+        <div id="nicknameError" class="error"></div>
+
+        <label for="email"><p>이메일:</p></label>
+        <input type="text" id="email" name="email"><br>
+        <div id="emailError" class="error"></div>
+
+        <label for="password"><p>비밀번호:</p></label>
+        <input type="password" id="password" name="password"><br>
+        <div id="passwordError" class="error"></div>
+
+        <label for="passwordcheck"><p>비밀번호 확인:</p></label>
+        <input type="password" id="passwordcheck" name="passwordcheck"><br>
+        <div id="passwordcheckError" class="error"></div>
+
+        <br><br>
+        <button type="submit" id="open">가입하기</button>
+    </form>
+</div>
+  <div class="modal-wrapper" style="display: none;">
+    <div class="modal">
+      <div class="modal-title">가입성공!</div>
+      <p>UMC 챌린저 가입을 축하드립니다!!</p>
+      <div class="close-wrapper">
+        <button id="close">닫기</button>
+      </div>
+    </div>
+  </div>
+    <script src="sign_up.js"></script>
+</body>
+</html>

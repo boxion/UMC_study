@@ -1,0 +1,122 @@
+body {
+    background-image: url('UMC\ 뭔가\ 간지나는\ 배경1.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container{
+    width: 700px;
+    height: 700px;
+    margin: 200px auto 50px auto;
+    padding: 10px;
+    background-color:#a0a2ad;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.line{
+    width: 45%;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 10px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+label p {
+    margin: 17px 7px -3px 245px;
+    font-weight: bold;
+    color: #dad9d9;
+    font-size: 12px;
+    display: block;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 27%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.error {
+  color: rgb(0, 0, 0);
+}
+
+button {
+  width: 30%;
+  height: 10%;
+  padding: 10px 0px 10px 0px;
+  border: none;
+  background-color: rgb(49, 49, 49);
+  color : rgb(255, 255, 255);  
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.error-active {
+  color: red;
+  font-size: 12px;
+}
+.correct-active {
+  color: rgb(32, 161, 32);
+  font-size: 12px;
+}
+
+.modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal {
+    background: white;
+    padding: 24px 16px;
+    border-radius: 4px;
+    width: 320px;
+  }
+  
+  .modal-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .modal p {
+    font-size: 16px;
+  }
+
+
+  .close-wrapper {
+    text-align: right;
+    bottom: 10px; /* Add this line */
+    right: 10px; /* Add this line */
+    font-size: 10px; 
+  }
+  
+  .close-wrapper button {
+    width: 50px; /* Set the width of the button */
+    height: 40px; /* Set the height of the button */
+  }
