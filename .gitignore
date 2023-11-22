@@ -1,5 +1,5 @@
 #dependencies
-umc-weather/node_modules/
-umclogin/node_modules/
-umc_movie/node_modules/
-umc_site_login/node_modules/
+umc_weather/node_modules/
+umc_login/node_modules/
+umc_mission/node_modules/
+umc_sitelogin/node_modules/
