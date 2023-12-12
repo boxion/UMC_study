@@ -20,7 +20,16 @@ const Login = () => {
       const response = await axios.post("http://localhost:8000/user/login", {
         id: userId,
         pw: password,
-      });
+      },
+        {
+          headers: {
+            "Content-Type":"application/json"
+          }
+        }
+      );
+
+      localStorage.setItem('token', response.data.result.AccessToken);
+      localStorage.setItem('id', response.data.result.userId);
 
       console.log(response.data);
     } catch (error) {
